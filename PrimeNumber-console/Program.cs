@@ -8,9 +8,9 @@ namespace PrimeNumber_console
     class Program
     {
         private static PrimeGenerator primeNumber = new PrimeGenerator();   // Initialise our PrimeGenerator
-        private static long a;  // Defines the startvalue
-        private static long b;  // Defines the endvalue
-        private static List<long> primes;   // Contais the a list with the result of primenumbers found.
+        private static long a;  // Defines the start value
+        private static long b;  // Defines the end value
+        private static List<long> primes;   // Contains the a list with the result of prime numbers found.
 
         /// <summary>
         /// Main method here the magic happens. Contains a switch menu with options and own input field
